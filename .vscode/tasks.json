@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Initialize SQLite DB directory",
+			"command": "mkdir -p data",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
